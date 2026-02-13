@@ -1,0 +1,47 @@
+venv
+
+kddcup22-sdwpf-evaluation
+
+.idea
+
+**.iml
+
+**.ipynb_checkpoints
+
+__pycache__
+
+nohup.out
+
+logs
+
+data/wtbdata_245days.csv
+
+# Large data files
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.pth
+*.pt
+*.ckpt
+
+# Large CSV/JSON data (>10MB typically)
+stgcn-TrafficPred/data/
+ASTGNN-Traffic Flow/data/
+spacetimeformer-main/spacetimeformer/data/
+spacetimeformer-main/spacetimeformer/images/
+pytorch_geometric_temporal/notebooks/data/
+pytorch_geometric_temporal/dataset/
+pytorch_geometric_temporal/examples/indexBatching/DCRNN/data/
+
+# Python artifacts
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environment
+.env
+*.env
